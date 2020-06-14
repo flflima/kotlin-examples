@@ -8,5 +8,5 @@ fun olaMundo(nome: String) {
 }
 
 fun main(args: Array<String>) {
-    olaMundo("João")
+    olaMundo(args[0])
 }
