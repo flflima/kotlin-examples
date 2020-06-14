@@ -3,10 +3,10 @@
  */
 package hello.world
 
-fun olaMundo() {
-    println("Olá Mundo!")
+fun olaMundo(nome: String) {
+    println("Olá $nome!")
 }
 
 fun main(args: Array<String>) {
-    olaMundo()
+    olaMundo("João")
 }
