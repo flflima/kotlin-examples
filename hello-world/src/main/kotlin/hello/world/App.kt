@@ -3,13 +3,10 @@
  */
 package hello.world
 
-class App {
-    val greeting: String
-        get() {
-            return "Hello world."
-        }
+fun olaMundo() {
+    println("Olá Mundo!")
 }
 
 fun main(args: Array<String>) {
-    println(App().greeting)
+    olaMundo()
 }
